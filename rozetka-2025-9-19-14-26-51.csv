@@ -1,0 +1,10 @@
+,OS: Windows 11 | Browser: Chrome 140 | Resolution: 1280x672 | Time: 19 Sep 2025 / 14:26:51  GMT+3
+
+"#","Step","Data","Exp Result","XPath","cssSelector"
+"1","Open website","https://rozetka.com.ua/","","",""
+"2","Enter ""кобзар"" into ""Я шукаю...""","кобзар","","//input[@placeholder='Я шукаю...']","input[placeholder='Я шукаю...']"
+"3","Click on ""Знайти""","","","//button[contains(text(),'Знайти')]",".button.button_color_green.button_size_medium.search-form__submit"
+"4","Scroll down","","","",""
+"5","Click on ""Купити""","","","//body/rz-app-root/div[@class='d-flex flex-col min-h-screen']/div[@class='h-full order-1 outlet-wrapper']/rz-search[@ngskiphydration='true']/rz-catalog/div[@class='catalog']/div[@class='layout layout_with_sidebar']/section[@class='content_type_catalog']/rz-grid/ul[@class='catalog-grid']/li[1]/rz-catalog-tile[1]/app-goods-tile-default[1]/div[1]/article[1]/div[1]/div[3]/div[1]/div[1]/div[2]/rz-buy-button[1]/button[1]/*[1]","body > rz-app-root:nth-child(1) > div:nth-child(1) > div:nth-child(3) > rz-search:nth-child(3) > rz-catalog:nth-child(1) > div:nth-child(1) > div:nth-child(3) > section:nth-child(1) > rz-grid:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > rz-catalog-tile:nth-child(1) > app-goods-tile-default:nth-child(1) > div:nth-child(1) > article:nth-child(2) > div:nth-child(1) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > rz-buy-button:nth-child(2) > button:nth-child(1) > svg:nth-child(1)"
+"6","Click on ""2""","","","//button[@aria-label='Відкрити корзину']//*[@aria-hidden='true']","body > rz-app-root:nth-child(1) > div:nth-child(2) > div:nth-child(3) > rz-main-header:nth-child(1) > header:nth-child(2) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(5) > li:nth-child(8) > rz-header-cart:nth-child(1) > button:nth-child(1) > svg:nth-child(1)"
+"7","Scroll up","","","//svg[contains(text(),'2')]","svg[aria-label='Відкрити корзину']"
