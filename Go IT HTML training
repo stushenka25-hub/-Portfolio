@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>My resume</title>
+  </head>
+  <body>
+    <!-- <Wrapper -->
+    <div class="wrapper">
+      <!-- Main content -->
+      <div class="main-content">
+     <!-- About me -->
+     <div class="about-me-container">
+      <h2 class="my-profession">Front-End Developer</h2>
+      <h1 class="my-name">Anastasiia Voitenko</h1>
+      <p class="my-descr">
+        Proven IT support technician skilled in customer service and database. Seeking to cut costs and provide efficient process improvements at PMW Group. 
+      </p>
+    </div>
+    <!-- My projects -->
+    <div class="projects-container">
+      <h3 class="main-content-title">Projects</h3>
+      <ol class="project-list">
+        <li class="project-item">
+          <a href="https://hellen.p.goit.global/" class="project-item-link"
+            >https://hellen.p.goit.global/</a>
+            <span class="project-item-descr">
+          .......................[ HTML5, CSS3 ]</span>
+        </li>
+        <li class="project-item">
+          <a href="https://cryptohub.p.goit.global/" class="project-item-link"
+            >https://hellen.p.goit.global/</a>
+            <span class="project-item-descr">
+          .......................[ JavaScript ]</span>
+        </li>
+        <li class="project-item">
+          <a href="https://kidslike.p.goit.global/" class="project-item-link"
+            >https://hellen.p.goit.global/</a>
+            <span class="project-item-descr">
+          .......................[ React.js, Node.js ]</span>
+        </li>
+      </ol>
+    </div>
+    <!-- Work Experience -->
+    <div class="work-experience-container">
+    <h3 class="main-content-title">Work Experience</h3>
+    </div>
+    <!-- Company 1 -->
+    <div class="work-experience-place">
+      <h4 class="work-experience-position">Support manager 
+        <span class="work-experience-company">PMW Group</span></h4>
+      <p class="work-period">May 2017 - up to now | Ukraine</p>
+      <ul class="work-duties-list">
+        <li class="work-duties">
+          Assisted the team with all technical issues.
+        </li>
+        <li class="work-duties">Provided customer support.</li>
+        <li class="work-duties">Creating workspaces for each member of team.</li>
+        <li class="work-duties">
+          Controlling all administration proccesses.
+        </li>
+      </ul>
+    </div>
+    <!-- Company 2 -->
+    <div class="work-experience-place">
+      <h4 class="work-experience-position">Manager 
+        <span class="work-experience-company">Peak Sport</span>
+      </h4>
+
+      <p class="work-period">August 2014 - May 2017 | Ukraine</p>
+      <ul class="work-duties-list">
+        <li class="work-duties">
+          Personnel management, organizing the work of the store.
+        </li>
+        <li class="work-duties">Consulting and calculating customers,.</li>
+        <li class="work-duties">Maintaining documentation and re-accounts.</li>
+      </ul>
+    </div>
+    <!-- Company 3 -->
+    <div class="work-experience-place">
+      <h4 class="work-experience-position">Junior Debt Recovery Specialist
+        <span class="work-experience-company">VostokFinance Group</span>
+      </h4>
+
+      <p class="work-period">July 2013 - September 2013 | Country</p>
+      <ul class="work-duties-list">
+        <li class="work-duties">Conducting correct telephone conversations.</li>
+        <li class="work-duties">Advice on debt repayment methods.</li>
+        <li class="work-duties">Reaching an agreement with the client.</li>
+      </ul>
+    </div>
+
+
+  
+    <!-- Education -->
+    <div>
+      <h3 class="education-title">Education</h3>
+<h4 class="education-place">National Pedagogical Drahomanov University</h4>
+<h5 class="education-descr">Faculty of Ukrainian Philology</h5>
+<p class="education-period">September 2014 - June 2015   |   Ukraine</p>
+    </div>
+</div>
+
+
+       <!-- Sidebar -->
+<aside class="sidebar">
+  <img src="img/frame-1.jpg" alt="My photo" width="370px" class="my-photo">
+
+
+  <!-- Contacts -->
+  <div class="contacts-container">
+    <h3 class="sidebar-title">Contacts</h3>
+
+      <p class="contacts-item">
+        <span class="contacts-type">C: </span> 
+        <a href="tel:+380638785522" class="contacts-number">+38 063 878 55 22</a>
+      </p>
+      <p class="contacts-item">
+        <span class="contacts-type">E: </span> 
+        <a href="mailto:stushenka25gmail.com" class="contacts-email">stushenka25gmail.com</a>
+      </p>
+      </div>
+
+
+      <!-- Tech skills -->
+      <div class="tech-skills-container">
+        <h3 class="sidebar-title">Tech Skills</h3>
+        <ul class="skills-list">
+        <li class="skills-list-item">
+          <span class="skills-list-text">HTML5</span>
+        </li>
+        <li class="skills-list-item"> 
+          <span class="skills-list-text">CSS3</span> 
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">Microsoft Office</span>
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">1C</span>
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">Data analysis</span>
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">Financial management</span>
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">Graphic design</span>
+        </li>
+      </ul>
+      </div>
+
+
+      <!-- Soft skills -->
+      <div class="soft-skills-container">
+        <h3 class="sidebar-title">Soft Skills</h3>
+        <ul class="skills-list">
+        <li class="skills-list-item">
+          <span class="skills-list-text">Organizational</span>
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">Customer Service</span>
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">Problem Solving</span>
+        </li>
+        <li class="skills-list-item">
+          <span class="skills-list-text">Teamwork</span>
+        </li>
+        </ul>
+      </div>
+      </div>
+  </aside>
+</div>
+  </body>
+</html>
